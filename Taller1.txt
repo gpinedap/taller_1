@@ -1,0 +1,79 @@
+- vi Taller1.txt
+
+- evince Taller.pdf &
+
+- mkdir Paseo
+  mkdir Comida
+  mkdir Deporte
+  mkdir Cine
+  	cd Comida
+  		mkdir Italiana
+    			cd Italiana
+  				mkdir Pasta
+  				mkdir Pizza
+
+- ls -R
+
+- ls -lhrt
+
+- cd Pasta
+  	cp /home/gilbert/Descargas/Taller.pdf /home/gilber/Programacion/Python/Gilbert/Comida/Italiana/Pizza
+
+- mv Taller.pdf Basura.pdf
+
+- rm Basura.pdf
+
+- rm -Rf Italiana
+
+- cp Paseo
+ 	man grep > grep.txt
+	man cal  > cal.txt
+	man cp   > cp.txt
+
+- cat cal.txt
+  head -n6 cal.txt
+  tail -n12 cal.txt
+
+- ls c*
+  ls *p*
+
+- En vim:
+	i	para entrar en modo insertar
+	dd	cortar una  linea
+	u	deshacer	
+     ctrl -r 	para rehace
+        p	para pegar
+	yy	para copiar
+	:wq	salir y salvar
+- tar -cvf 	crea ficherosn /home/gilbert/Programacion/Python/Gilbert/
+  tar -tf	para ver que tiene un fichero
+
+- cp /home/gilbert/Descargas/Alvarovaldes.tar /home/gilber/Programacion/Python/Gilbert/
+  tar -xvf 	descomprime archivos
+
+- En vim:
+	:syntax on	para resaltado de sintaxis
+
+- gfortran programita.f
+  ./a.out
+
+- gnuplot
+  p 'fort.21' wl
+  p 'fort.22' wl
+
+- find / -name "[c]"	archivos que comienzan con c
+  find / -name "[c]*t"	archivos que comienzan con c y terminan en t
+
+- grep "salsa" /home/gilbert/Descargas/circuitosbasicos.pdf
+
+-
+   2  4  6  8  10  1  3  5  7  9
+   2  4  6  8  10  1  3  5  7  9
+   2  4  6  8  10  1  3  5  7  9
+   2  4  6  8  10  1  3  5  7  9
+   2  4  6  8  10  1  3  5  7  9
+   2  4  6  8  10  1  3  5  7  9
+   2  4  6  8  10  1  3  5  7  9
+   2  4  6  8  10  1  3  5  7  9
+   2  4  6  8  10  1  3  5  7  9
+   2  4  6  8  10  1  3  5  7  9
